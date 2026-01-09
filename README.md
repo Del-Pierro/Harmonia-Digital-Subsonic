@@ -6,7 +6,7 @@ Ce dépôt contient la solution de conteneurisation et d'orchestration pour l'ap
 - **Docker Hub** : [lasatou/subsonic:v1](https://hub.docker.com/r/lasatou/subsonic)
 - **Image de base** : Java 8 (Temurin)
 
-## 🛠 Choix Techniques & Analyse (Livrable 4)
+## 🛠 Choix Techniques & Analyse
 - **Runtime** : Utilisation de Java 8 indispensable pour la compatibilité du bytecode de l'application legacy.
 - **Résilience** : Déploiement Kubernetes avec **3 répliques** pour garantir une haute disponibilité.
 - **Persistance** : Mise en place d'un `PersistentVolumeClaim` (PVC) pour conserver la base de données et les musiques malgré le redémarrage des pods.
